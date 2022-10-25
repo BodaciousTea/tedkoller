@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,900");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+#remove-white-bar{display: block;}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 50vw;
+  min-width: 100vw;
+
+	
+  /* Set up proportionate scaling */
+  width: 100vw;
+  height: auto;
+	
+  /* Set up positioning */
+  position: auto;
+  top: 500;
+  left: 500;
+}
+
+
+
+body {
+    font-family: "Nunito Sans";
+    overflow-x: hidden;
+    font-size: 60px;
+  }
+
+video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+    top: 0;
+    left: 0;
+  }
+
+.header {
+    position: absolute;
+    z-index: 1;
+    font-size: 130px;
+    color: #2C3939;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -50%);
+}
+
+.header2 {
+
+  position: absolute;
+  z-index: 1;
+  font-size: 30px;
+  color: #2C3939;
+  top: 40%;
+  left: 61%;
+  transform: translate(-0%, -50%);
+}
+
+.header3 {
+
+  position: absolute;
+  z-index: 1;
+  font-size: 180px;
+  color: #2C3939;
+  top: 27%;
+  left: 35%;
+  transform: translate(-0%, -50%);
+}
+
+.header4 {
+
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: justify;
+  max-width: 40rem;
+  color: #2C3939;
+  top: 50%;
+  left: 35%;
+  transform: translate(-0%, -50%);
+}
+
+.header5 {
+
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: justify;
+  max-width: 40rem;
+  color: #ffffff;
+  top: 160%;
+  left: 35%;
+  transform: translate(-0%, -50%);
+}
+
+.link1{
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  font-size: 30px;
+  word-spacing: 125px;
+  top: 190%;
+  left: 35%;
+  transform: translate(-0%, -50%);
+}
+
+.link2{
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  font-size: 30px;
+  word-spacing: 125px;
+  top: 190%;
+  left: 50%;
+  transform: translate(-0%, -50%);
+}
+
+.link3{
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  font-size: 30px;
+  word-spacing: 125px;
+  top: 190%;
+  left: 62%;
+  transform: translate(-0%, -50%);
+}
+
+.fulljustify {
+  text-align:justify;
+}
+.fulljustify:after {
+    content: "";
+    display: inline-block;
+    width: 100%;	
+}
+#tagline {
+    height: 80px;
+    overflow: hidden;
+    line-height: 80px; /* vert-center */
+}
+
+
+
+
+img {
+  position: relative;
+  overflow:hidden;
+  top:0;
+  left:0;
+  opacity:1;
+  background-color:rgba(0,0,0,0.5);
+  -webkit-transition:all .4s ease-in-out;
+  transition:all .4s ease-in-out;
+  }
+  
+  .header {
+      text-align: center;
+      padding: 32px;
+      margin-bottom: 50px;
+  }
+  
+  .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0px;
+  }
+  
+  .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 50%;
+      padding: 0px;
+  }
+  
+  .column img {
+      margin-top: 0px;
+      vertical-align: middle;
+  }
+  
+.img1{
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  top: 100%;
+  left: 10%;
+  transform: translate(-0%, -50%);
+  background:none;
+}
+
+  #overlay:hover {
+  overflow:hidden;
+  top:0;
+  left:0;
+  opacity:0.7;
+  background-color:rgba(0,0,0,0.5);
+  -webkit-transition:all .4s ease-in-out;
+  transition:all .4s ease-in-out;
+  }
+
+
+
+  @media screen and (max-width: 800px) {
+      .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+      }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+      .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+      }
+  }
+/* Style page content - use this if you want to push the ` content to the right when you open the side navigation */
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar a {font-size: 18px;}
+}
