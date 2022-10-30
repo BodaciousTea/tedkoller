@@ -107,6 +107,35 @@ video{
   transform: translate(-0%, -50%);
 }
 
+.header6 {
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  font-size: 200px;
+  margin: 0 auto;
+  text-align: justify;
+  max-width: 40rem;
+  color: #2C3939;
+  top: 10%;
+  left: 25%;
+  transform: translate(-0%, -50%);
+}
+
+.header7 {
+
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: justify;
+  max-width: 50rem;
+  color: #2C3939;
+  top: 30%;
+  left: 30%;
+  transform: translate(-0%, -50%);
+}
+
 .link1{
   position: absolute;
   line-height:1.5;
@@ -198,7 +227,27 @@ img {
   line-height:1.5;
   z-index: 1;
   top: 100%;
-  left: 10%;
+  left: 5%;
+  transform: translate(-0%, -50%);
+  background:none;
+}
+
+.img2{
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  top: 100%;
+  left: 37%;
+  transform: translate(-0%, -50%);
+  background:none;
+}
+
+.img3{
+  position: absolute;
+  line-height:1.5;
+  z-index: 1;
+  top: 100%;
+  left: 70%;
   transform: translate(-0%, -50%);
   background:none;
 }
