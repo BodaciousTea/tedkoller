@@ -1,5 +1,4 @@
 # Ted Koller
-tedkoller.com public portfolio
 
 Ted Koller is a multi-talented artist with a passion for both photography and graphic design. With a keen eye for composition and an innate sense of aesthetics, Ted's work always stands out for its beauty and creativity.
 
